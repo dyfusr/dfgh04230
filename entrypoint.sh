@@ -2,11 +2,11 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'d7b78201-ce99-4a64-9ccd-a0e87af33453'}
+UUID=${UUID:-'ce047b7a-c3c2-4a03-8d75-5a8c196a8504'}
 
 # 其他Paas保活
-PAAS1_URL= https://test0418.onrender.com
-PAAS2_URL= https://sassy-shard-crocus.glitch.me
+PAAS1_URL=
+PAAS2_URL=
 PAAS3_URL=
 PAAS4_URL=
 PAAS5_URL=
@@ -17,8 +17,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"f69bf3cd59bdc8f8709369e03e7ace8b","TunnelSecret":"UhYRz359CzqG9r7SZVIK17xbjqiJCTmVR7ExRVtcHNM=","TunnelID":"ba6764ca-dc41-4b11-beaa-612a780853b5"}'
-ARGO_DOMAIN=pps.cmkjgfh.cf
+ARGO_AUTH='{"AccountTag":"f69bf3cd59bdc8f8709369e03e7ace8b","TunnelSecret":"OHmD49VuPBjNaQIlJRQq8HWoSl0woOeVVn5MfdLX2Jk=","TunnelID":"ec498820-3049-4b07-b45d-5fabba39652b"}'
+ARGO_DOMAIN=eu5.kfiuogh.ml
 
 generate_config() {
   cat > config.json << EOF
